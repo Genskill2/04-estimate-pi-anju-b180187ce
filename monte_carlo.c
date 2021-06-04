@@ -4,6 +4,7 @@
 #include <math.h>
 
 float frandom();
+float mc_pi(int);
 float mc_pi(int num)
 {
   float a,b,d,pi;
