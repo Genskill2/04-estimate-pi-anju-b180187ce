@@ -20,7 +20,7 @@ float mc_pi(int num)
       count=count+1;
     }
   }
-  pi = 4*count/num;
+  pi = (float) count / num *4;
   return pi;
 
 }
